@@ -1,0 +1,22 @@
+/*sTYLING THE NAVBAR*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align:left;
+    display: grid;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    display:inline;
+    list-style:none;
+    margin-left: 10px;
+}
