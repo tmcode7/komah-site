@@ -2,6 +2,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 5px 15px 0 15px;
 }
 
 .logo {
@@ -19,4 +20,33 @@ nav li {
     display:inline;
     list-style:none;
     margin-left: 10px;
+}
+
+/* The focal point of he landing page
+displaying the background image and discount announcements*/
+
+main {
+    background-image: url(images/Female-Friends-Laugh-Smile-1296x728-Header-1024x575.webp);
+    height: 35vh;
+    width: 100%;
+}
+
+.discount-box{
+    border: 2px solid white;
+    border-radius: 40%;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    max-width: 20%;
+    height: 20vh;
+    position: absolute;
+    transform: translate(330%, 90%);
+    
+}
+
+span {
+    font-weight: bold;
+    font-size: 41px;
 }
