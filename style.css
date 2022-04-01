@@ -96,3 +96,28 @@ section{
     opacity: 0.2;
 }
 
+
+
+
+
+
+
+
+
+
+/* Mobile View*/
+@media (max-width: 767px) {
+  ul {
+      display: none;
+  }
+  
+  .mantra{
+    position: absolute;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: -48px;
+    z-index: 3;
+    color: white;
+}
+}
