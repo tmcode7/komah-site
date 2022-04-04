@@ -321,5 +321,11 @@ ul{
     transform: translate(-20%, -70%);
     z-index: 3;
     color: white;
-}  
+}
+
+
+/*mobile offer section*/
+.offer1{
+  width: 100%;
+}
 } 
