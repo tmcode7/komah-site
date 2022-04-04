@@ -132,13 +132,26 @@ section{
 
 .offer1{
   width: 20%;
-  border: 2px solid black;
 }
 
+h2{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
 
+h3{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 
+.offer1{
+  text-align: center;
+}
 
-
+img {
+  margin-bottom: 30px;
+}
 
 
 /* Mobile View*/
@@ -325,7 +338,28 @@ ul{
 
 
 /*mobile offer section*/
+.hide-mob{
+  display: none;
+}
+
+.offers{
+  display: flex;
+  justify-content:space-around;
+}
+.offer-container{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .offer1{
   width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 30px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 16px;
 }
 } 
