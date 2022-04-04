@@ -116,6 +116,24 @@ section{
 
 
 
+/*Offer section*/
+
+.offers{
+  margin-top: 100px;
+}
+.offers h2{
+  text-align: center;
+}
+
+.offer-container{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.offer1{
+  width: 20%;
+  border: 2px solid black;
+}
 
 
 
