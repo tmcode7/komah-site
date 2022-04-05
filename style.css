@@ -395,4 +395,26 @@ h3{
   font-weight: bold;
   font-size: 16px;
 }
+
+/*Mobile Desc*/
+.description {
+  background: linear-gradient(to left, rgb(105, 71, 71), rgb(160, 98, 40));
+  padding: 5px;
+  margin-top: 328px;
+}
+
+.desc-img{
+  display: none;
+  
+
+}
+
+.boldy{
+  font-size: 18px;
+}
+.text-area {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
 } 
