@@ -120,6 +120,7 @@ section{
 
 .offers{
   margin-top: 100px;
+  height: 50vh;
 }
 .offers h2{
   text-align: center;
@@ -151,6 +152,38 @@ h3{
 
 img {
   margin-bottom: 30px;
+}
+
+
+
+
+
+/*Descreption*/
+.description{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  align-items: center;
+  height: 50vh;
+  background: linear-gradient(to left, rgb(105, 71, 71), rgb(160, 98, 40));
+}
+
+.text-area {
+  width: 60%;
+  padding: 40px;
+}
+
+.boldy {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.desc-img {
+  background: url(/IMG_1598.jpg) cover;
+  height: 250px;
+  width: 200px;
+  border: 2px black solid;
+  text-align: center; 
 }
 
 
