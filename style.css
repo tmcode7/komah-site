@@ -212,6 +212,7 @@ img {
   text-align: center;
   background: url(/IMG_7722.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 h2{
   font-weight: bold;
@@ -508,6 +509,10 @@ h3{
 h3{
   font-weight: bold;
   font-size: 16px;
+}
+
+.team-img{
+ background-size: cover;
 }
 
 
