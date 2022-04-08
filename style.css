@@ -232,6 +232,23 @@ img {
   margin-bottom: 30px;
 }
 
+/*Newsletter*/
+.newsletter {
+  margin-top: 150px;
+  display: block;
+  text-align: center;
+  height: 50vh;
+  background: linear-gradient(to left, rgb(105, 71, 71), rgb(160, 98, 40));
+}
+
+.newsletter h2 {
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+
+
+
 /* Mobile View*/
 @media (max-width: 767px) {
 .pclist {
@@ -493,4 +510,11 @@ h3{
   font-size: 16px;
 }
 
+
+/*Mobile Newsletter*/
+.newsletter {
+  margin-top: 1000px;
+  display: block;
+  text-align: center;
+}
 } 
