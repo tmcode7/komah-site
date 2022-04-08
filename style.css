@@ -158,7 +158,7 @@ img {
 
 
 
-/*Descreption*/
+/*Description*/
 .description{
   display: flex;
   justify-content: space-around;
@@ -186,6 +186,44 @@ img {
   text-align: center; 
 }
 
+
+/*Meet the team*/
+
+.team{
+  margin-top: 100px;
+  height: 50vh;
+}
+.team h2{
+  text-align: center;
+}
+
+.team-container{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.team1{
+  width: 20%;
+}
+
+h2{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.team1{
+  text-align: center;
+}
+
+img {
+  margin-bottom: 30px;
+}
 
 /* Mobile View*/
 @media (max-width: 767px) {
