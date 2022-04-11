@@ -235,6 +235,8 @@ img {
 
 /*Newsletter*/
 .newsletter {
+  display: flex;
+  justify-content:center;
   margin-top: 150px;
   display: block;
   text-align: center;
@@ -247,6 +249,26 @@ img {
   margin-bottom: 0;
 }
 
+.newsletter p {
+  margin-bottom: 20px;
+}
+#name, #email{
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid black;
+  width: 100px;
+}
+
+button:hover {
+background-color:rgb(160, 98, 40)
+}
 
 
 
