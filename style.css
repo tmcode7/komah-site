@@ -271,6 +271,10 @@ background-color:rgb(160, 98, 40)
 }
 
 
+/*Lookbook*/
+.lookbook h2 {
+  text-align: center;
+}
 
 /* Mobile View*/
 @media (max-width: 767px) {
