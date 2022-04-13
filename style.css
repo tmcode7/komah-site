@@ -272,8 +272,9 @@ background-color:rgb(160, 98, 40)
 
 
 /*Lookbook*/
-.lookbook h2 {
+h2 {
   text-align: center;
+  margin-top: 25px;
 }
 
 /*Look book swiper*/
