@@ -562,8 +562,9 @@ h3{
 
 
 /*mobile team section*/
-.hide-mob{
-  display: none;
+.hide-mo{
+  margin-bottom: 0;
+  margin-top: 140px;
 }
 
 .team{
